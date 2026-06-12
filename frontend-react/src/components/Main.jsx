@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -14,7 +16,7 @@ const Main = () => {
             delectus maiores cumque, sit, consequatur exercitationem nobis
             architecto.
           </p>
-          <Button text="Login" class="btn-outline-warning" />
+          <Button text="Login" class="btn-outline-warning" url="/login" />
         </div>
       </div>
     </>
